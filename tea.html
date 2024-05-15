@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+    <title>Coffee-house</title>
+  </head>
+
+  <body class="body-mod">
+    <header>
+      <div class="img-logo">
+        <a href="index.html">
+          <img src="images/logo.svg" alt="logo">
+        </a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-item a-hover">
+            <a class="text-base" href="index.html#coffee">Favorite coffee</a>
+          </li>
+          <li class="nav-list-item a-hover">
+            <a class="text-base" href="index.html#about">About</a>
+          </li>
+          <li class="nav-list-item a-hover">
+            <a class="text-base" href="index.html#mobile">Mobile app</a>
+          </li>
+          <li class="nav-list-item a-hover">
+            <a class="text-base" href="#contact">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-list home a-hover">
+        <a class="text-base" href="#">Menu</a>
+        <img src="images/coffee-cup.svg" alt="cup">
+      </div>
+      <div class="burger">
+        <img src="./images/button-icon-burger.svg" alt="menu-burger">
+      </div>
+    </header>
+    <main>
+      <section class="title">
+        <h2>
+          Behind each of our cups
+          hides an <span>amazing surprise</span>
+        </h2>
+        <div class="btn-menu">
+          <form action="coffee.html" target="_self">
+            <button class="btn-menu-item">
+              <img src="images/cup-coffee.svg" alt="cup-coffee">Coffee
+            </button>
+          </form>
+          <form action="tea.html" target="_self">
+            <button class="btn-menu-item item-tea">
+              <img src="images/cup-tea.svg" alt="cup-tea">Tea
+            </button>
+          </form>
+          <form action="desert.html" target="_self">
+            <button class="btn-menu-item">
+              <img src="images/cake-desert.svg" alt="cake-desert">Desert
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card zom">
+          <div class="card ext">
+            <img class="zom" src="images/tea-1.jpg" alt="cup">
+          </div>
+
+          <div class="description">
+            <h3>Moroccan</h3>
+            <p class="discript text-base">
+              Fragrant black tea with the addition of tangerine, cinnamon,
+              honey, lemon and mint
+            </p>
+            <div class="price">$4.50</div>
+          </div>
+        </div>
+        <div class="card zom">
+          <div class="card ext">
+            <img class="zom" src="images/tea-2.jpg" alt="cup">
+          </div>
+
+          <div class="description">
+            <h3>Ginger</h3>
+            <p class="discript text-base">
+              Original black tea with fresh ginger,
+              lemon and honey
+            </p>
+            <div class="price">$5.00</div>
+          </div>
+        </div>
+        <div class="card zom">
+          <div class="card ext">
+            <img class="zom" src="images/tea-3.jpg" alt="cup">
+          </div>
+
+          <div class="description">
+            <h3>Cranberry</h3>
+            <p class="discript text-base">
+              Invigorating black tea with
+              cranberry and honey
+            </p>
+            <div class="price">$5.00</div>
+          </div>
+        </div>
+        <div class="card zom">
+          <div class="card ext">
+            <img class="zom" src="images/tea-4.jpg" alt="cup">
+          </div>
+
+          <div class="description">
+            <h3>Sea buckthorn</h3>
+            <p class="discript text-base">
+              Toning sweet black tea with sea
+              buckthorn, fresh thyme and
+              cinnamon
+            </p>
+            <div class="price">$5.50</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="social">
+        <h2>
+          Sip, Savor, Smile.
+          <span>It’s coffee time!</span>
+        </h2>
+        <ul class="social-icon">
+          <li>
+              <a href="https://twitter.com" aria-label="twitter">
+                  <svg class="icon">
+                      <use href="images/symbol-defs.svg#icon-icon_twitter"></use>
+                  </svg>
+              </a>
+          </li>
+          <li>
+              <a href="https://www.instagram.com" aria-label="instagram">
+                  <svg class="icon">
+                      <use href="images/symbol-defs.svg#icon-icon_instagram"></use>
+                  </svg>
+              </a>
+          </li>
+          <li>
+              <a href="https://www.facebook.com" aria-label="facebook">
+                  <svg class="icon">
+                      <use href="images/symbol-defs.svg#icon-icon_facebook"></use>
+                  </svg>
+              </a>
+          </li>
+      </ul>
+      </div>
+      <div id="contact" class="contact">
+        <h3>Contact</h3>
+        <ul class="contact-list">
+          <li class="contact-list-item text-base f-hover">
+            <img src="images/pin-alt.svg" alt="grop">
+            <a href="#">8558 Green Rd., LA</a>
+          </li>
+          <li class="contact-list-item text-base f-hover">
+            <img src="images/phone.svg" alt="phone">
+            <a href="tel:+16035550123">+1 (603) 555-0123</a>
+          </li>
+          <li class="contact-list-item text-base">
+            <img src="images/clock.svg" alt="clock">
+            Mon-Sat: 9:00 AM – 23:00 PM
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+<!--========== MODAL ================-->
+
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <div class="car ext">
+          <img src="images/tea-1.jpg" alt="cup">
+        </div>
+        <div class="modal-description">
+          <h3>Moroccan</h3>
+          <p>
+            Fragrant black tea with the addition of tangerine,
+            cinnamon, honey, lemon and mint
+          </p>
+          <span class="modal-span">Size</span>
+          <div class="btn-menu mod">
+            <button class="btn-menu-item" type="button" id="200ml">
+              <img src="images/icon_s.svg" alt="200ml">200 ml
+            </button>
+            <button id="300ml" class="btn-menu-item" type="button" >
+              <img src="images/icon_m.svg" alt="300ml">300 ml
+            </button>
+            <button class="btn-menu-item" type="button" id="400ml">
+              <img src="images/icon_l.svg" alt="400ml">400 ml
+            </button>
+          </div>
+          <span class="modal-span">Additives</span>
+          <div class="btn-menu mod">
+            <button class="btn-menu-item" type="button" id="sugar">
+              <img src="images/icon_1.svg" alt="sugar" >Sugar
+            </button>
+            <button class="btn-menu-item" type="button" id="lemon">
+              <img src="images/icon_2.svg" alt="lemon">Lemon
+            </button>
+            <button class="btn-menu-item" type="button" id="syrup">
+              <img src="images/icon_3.svg" alt="syrup">Syrup
+            </button>
+          </div>
+          <div class="total">
+            <span>Total:</span>
+            <span class="total-price" base-price = "4.50">$4.50</span>
+          </div>
+          <div class="info-price">
+            <img src="images/info-empty.svg" alt="tea">
+            <p>
+              The cost is not final. Download our mobile app to see the final
+              price and place your
+              order. Earn loyalty points and enjoy your favorite coffee with up
+              to 20% discount.
+            </p>
+          </div>
+          <button class="btn-modal-close" type="button">Close</button>
+        </div>
+      </div>
+    </div>
+    <script src="modal.js"></script>
+  </body>
+</html>
