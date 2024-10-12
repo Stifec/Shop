@@ -454,6 +454,10 @@ header {
   gap: 8px;
   border-radius: 100px;
 }
+.btn-else{
+  padding: 20px;
+  border-radius: 20px;
+}
 
 .item-coffee,
 .item-tea,

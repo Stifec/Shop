@@ -56,3 +56,7 @@ document.getElementById("syrup").onclick = function (e) {
 
     prices[0].innerText = "$" + a.toFixed(2);
 }
+
+//  Button SHOW ELSE =============================
+
+let showElse = document.querySelector('.btn-else');
